@@ -1026,85 +1026,85 @@
           title: String('Règlement Everest Anime [FR]'),
           description: String(`**__GLOBALE__**
     
-          \`\`\`
-          Article 1・Insulter un membre sur le serveur est interdit
+\`\`\`
+Article 1・Insulter un membre sur le serveur est interdit
+
+Article 2・ Demander d'être à un grade sans faire partie des recrutements est interdit
+
+Article 3・En cas de disputes avec un autre membre ,vous serrez tout les deux sanctionné
+
+Article 4・Les photos de profil explicite sont interdit
+\`\`\`
+
+**__Textuel__**
+
+\`\`\`
+Article 1・Les liens emmenant vers des sites frauduleux sont interdit
+
+Article 2・Les tokens grabs seront automatiquement sanctionné par un ban
+
+Article 3・Les liens sont autorisé que dans le salon nommé #média et nul part ailleurs (sauf pour le salon #vos-arts ) tout en respectant l'article 1 et 2
+
+Article 4・Les doubles comptes sont interdit
+
+Article 5・le partage de script/exploit est interdit au sein de notre serveur
+
+Article 6・L'usurpation d'identité est interdite
+
+Article 7・Les propos raciste ou haineux envers une race sont interdit
+
+Article 8・L'homophobie est interdite
+
+Article 9 ・Les invitations vers d'autres serveur qu'Everest Anime Chill [FR] sont interdit
+
+Article 10・Le spam sera automatiquement sanctionné par un kick et en cas de répétition ,par un ban .
+
+Article 11・Le contenu sexuelle est interdit
+
+Article 12・Tout type de conversation/action illégal est interdit﻿
+\`\`\`
+
+**__Message privé__**
     
-          Article 2・ Demander d'être à un grade sans faire partie des recrutements est interdit
+\`\`\`
+Article 1・Des insultes entres des membres de notre serveur en message privé sera sanctionné si celui-ci est report dans
+
+Article 2・Les Pub en message privé sans l'autorisation du destinataire sont interdits
+
+Article 3・Les articles 1,2,4,5 et 8 textuel s'appliquent aussi sur les message privé
+
+Article 4・L'harcèlement est interdit
+
+Article 5・Ne partagez pas d'information fausse ou trompeuse﻿
+\`\`\`
+
+**__Santion__**
+
+\`\`\`
+Commande dans le mauvais salon = Mute 5 minutes
+
+Spam = kick automatique
+
+Spam à répétition ( re rejoindre après un kick et recommencer ) = ban temp. 14jours
+
+Vidéo/lien dans le mauvais salon = censure
+
+Publicité discord = ban temp. 14jours
+
+Abus de ses droit = dégrade (staff)
     
-          Article 3・En cas de disputes avec un autre membre ,vous serrez tout les deux sanctionné
+Ban/kick pour des raison personnel = dégrade (staff)
+
+Non respect du règlement = sanction selon la gravité de la règle enfreinte
+\`\`\`
+
+**__T.O.S__**
     
-          Article 4・Les photos de profil explicite sont interdit
-          \`\`\`
+**Le [T.O.S](https://discord.com/terms) discord doit être obligatoiremment respecté**
+
+**__Autres__**
     
-          **__Textuel__**
-    
-          \`\`\`
-          Article 1・Les liens emmenant vers des sites frauduleux sont interdit
-          ﻿
-          Article 2・Les tokens grabs seront automatiquement sanctionné par un ban
-          ﻿
-          Article 3・Les liens sont autorisé que dans le salon nommé #média et nul part ailleurs (sauf pour le salon #vos-arts ) tout en respectant l'article 1 et 2
-          ﻿
-          Article 4・Les doubles comptes sont interdit
-          ﻿
-          Article 5・le partage de script/exploit est interdit au sein de notre serveur
-          ﻿
-          Article 6・L'usurpation d'identité est interdite
-          ﻿
-          Article 7・Les propos raciste ou haineux envers une race sont interdit
-          ﻿
-          Article 8・L'homophobie est interdite
-          ﻿
-          Article 9 ・Les invitations vers d'autres serveur qu'Everest Anime Chill [FR] sont interdit
-          ﻿
-          Article 10・Le spam sera automatiquement sanctionné par un kick et en cas de répétition ,par un ban .
-          ﻿
-          Article 11・Le contenu sexuelle est interdit
-          ﻿
-          Article 12・Tout type de conversation/action illégal est interdit﻿
-          \`\`\`
-    
-          **__Message privé__**
-    
-          \`\`\`
-          Article 1・Des insultes entres des membres de notre serveur en message privé sera sanctionné si celui-ci est report dans
-          ﻿
-          Article 2・Les Pub en message privé sans l'autorisation du destinataire sont interdits
-    
-          Article 3・Les articles 1,2,4,5 et 8 textuel s'appliquent aussi sur les message privé
-          ﻿
-          Article 4・L'harcèlement est interdit
-          ﻿
-          Article 5・Ne partagez pas d'information fausse ou trompeuse﻿
-          \`\`\`
-    
-          **__Santion__**
-    
-          \`\`\`
-          Commande dans le mauvais salon = Mute 5 minutes
-    
-          Spam = kick automatique
-    
-          Spam à répétition ( re rejoindre après un kick et recommencer ) = ban temp. 14jours
-    
-          Vidéo/lien dans le mauvais salon = censure
-    
-          Publicité discord = ban temp. 14jours
-    
-          Abus de ses droit = dégrade (staff)
-    
-          Ban/kick pour des raison personnel = dégrade (staff)
-    
-          Non respect du règlement = sanction selon la gravité de la règle enfreinte
-          \`\`\`
-    
-          **__T.O.S__**
-    
-          **Le [T.O.S](https://discord.com/terms) discord doit être obligatoiremment respecté**
-    
-          **__Autres__**
-    
-          **Notre serveur anime : [Everest Anime Chill [FR]](https://discord.gg/MFB7uXPRsc) **`),
+**Notre serveur anime : [Everest Anime Chill [FR]](https://discord.gg/MFB7uXPRsc) **`),
           }]});
         } else {
           s4dmessage.channel.send({embeds: [{
