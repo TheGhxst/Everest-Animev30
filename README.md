@@ -1,0 +1,3 @@
+For more inforamtion ,run this programme and use commande +help .
+
+This is a bot discord developed for the server Everest Anime [FR] and the server Everest Anime Chill [FR] so this program is bad for you . sorry i'm not a good programmer :/ ...
