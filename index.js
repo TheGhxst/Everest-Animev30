@@ -78,7 +78,7 @@
     }
     
     
-    await s4d.client.login((process.env.TOKEN)).catch((e) => {
+    await s4d.client.login((process.env[String('TOKEN')])).catch((e) => {
             const tokenInvalid = true;
             const tokenError = e;
             if (e.toString().toLowerCase().includes("token")) {
@@ -619,15 +619,6 @@
                         s4dreply.delete();
     
                       });
-                    } else if (embed_image != (await image_finder.find(query))) {
-                      s4dmessage.channel.send({embeds: [{
-                      color: String('#ff0000'),
-                      title: String('Lien d\'image invalide ! '),
-                      }]}).then(async (s4dreply) =>{
-                         await delay(Number(2)*1000);
-                        s4dreply.delete();
-    
-                      });
                     } else {
                       (s4dmessage.channel).send({embeds: [{
                       color: String('#3366ff'),
@@ -1007,7 +998,7 @@
           s4dmessage.channel.send({embeds: [{
           color: String('#ff0000'),
           title: String('> Permission manquante'),
-          description: String('> **Il vous manque la permission : manage server**'),
+          description: String('> Il vous manque la permission : **manage server**'),
           }]}).then(async (s4dreply) =>{
              await delay(Number(3)*1000);
             s4dreply.delete();
@@ -1025,17 +1016,17 @@
           color: String('#6600cc'),
           title: String('Règlement Everest Anime [FR]'),
           description: String(`**__GLOBALE__**
-    
+
 \`\`\`
 Article 1・Insulter un membre sur le serveur est interdit
-
+    
 Article 2・ Demander d'être à un grade sans faire partie des recrutements est interdit
-
+    
 Article 3・En cas de disputes avec un autre membre ,vous serrez tout les deux sanctionné
-
+    
 Article 4・Les photos de profil explicite sont interdit
 \`\`\`
-
+    
 **__Textuel__**
 
 \`\`\`
@@ -1065,7 +1056,7 @@ Article 12・Tout type de conversation/action illégal est interdit﻿
 \`\`\`
 
 **__Message privé__**
-    
+
 \`\`\`
 Article 1・Des insultes entres des membres de notre serveur en message privé sera sanctionné si celui-ci est report dans
 
@@ -1092,18 +1083,18 @@ Vidéo/lien dans le mauvais salon = censure
 Publicité discord = ban temp. 14jours
 
 Abus de ses droit = dégrade (staff)
-    
+
 Ban/kick pour des raison personnel = dégrade (staff)
 
 Non respect du règlement = sanction selon la gravité de la règle enfreinte
 \`\`\`
 
 **__T.O.S__**
-    
+
 **Le [T.O.S](https://discord.com/terms) discord doit être obligatoiremment respecté**
 
 **__Autres__**
-    
+
 **Notre serveur anime : [Everest Anime Chill [FR]](https://discord.gg/MFB7uXPRsc) **`),
           }]});
         } else {
