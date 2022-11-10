@@ -253,7 +253,7 @@
     });
     
     s4d.client.on('ready', async () => {
-      s4d.client.user.setPresence({status: "online",activities:[{name:'Everest Anime [FR] & Everest Anime Chill [FR]',type:"PLAYING"}]});
+      s4d.client.user.setPresence({status: "online",activities:[{name:'Red Unit [FR]',type:"PLAYING"}]});
     
     });
     
@@ -261,7 +261,7 @@
       if ((s4dmessage.content) == String(prefix) + 'join') {
         (s4dmessage.channel).send({embeds: [{
         color: String('#3366ff'),
-        title: String('> Voulez -vous activer le système de giveaway ?'),
+        title: String('> Voulez -vous activer le système de Bienvenue ?'),
         description: String('écrivez `ON` pour l\'activer ou bien `OFF`  pour le désactiver . '),
         }]}).then(() => { (s4dmessage.channel).awaitMessages({filter:(m) => m.author.id === (s4dmessage.author).id,  time: (5*60*1000), max: 1 }).then(async (collected) => { s4d.reply = collected.first().content;
          s4d.message = collected.first();
